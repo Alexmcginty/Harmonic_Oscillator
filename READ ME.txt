@@ -1,0 +1,12 @@
+
+QU_Decompostion.py is a python script which can find the eigenvalues of any square matrix. When running the scipt the user has two main options, firstly they can find the eigenvalues of a system of n identical particles connected by n+1 identical springs. On the otherhand, they can write their own matrix called matrix and find the eigenvalues for this custom square matrix.
+
+The function Eigenvalue takes in 4 inputs, these are:
+-n the number of rows/columns in your square matrix. For a harmonic oscillator system this would reflect the number of particles.
+-N the number of itterations which QU decompostion is run for, I usually recommened keeping this greater than 20.
+-constant, this is a boolean. If the value is True then we solve for a chanin of idnetical particles, if false then the user will input a square matrix.
+-matrix, when constant is False the user is requried to write their own custom matrix in the .py file. This is used if the user want's non identical particles.
+
+The code is designed around finding the natual frequcnies for a coupled harmonic oscillator but it is equally applicable to finding the eigenvalues of any square matrix.
+
+Alex McGinty - 2/11/23
